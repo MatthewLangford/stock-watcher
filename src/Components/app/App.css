@@ -1,0 +1,16 @@
+.app {
+  margin-top: 50px;
+  text-align: center;
+  width: 60%;
+  border: black 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f0f0f0;
+  font-family: "Droid Serif";
+}
+@media screen and (max-width: 800px){
+  .app {
+    width:99%;
+    margin-top: 0;
+  }
+}

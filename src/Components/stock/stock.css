@@ -1,0 +1,92 @@
+.stock-card{
+    width: 370px;
+    height: 120px;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    border: #a9a9b9 1px solid;
+    border-radius: 3px
+}
+.stock-card-top{
+    display: flex;
+    justify-content: space-between;
+}
+.stock-card-top-left{
+    text-align: start;
+}
+.stock-high{
+    margin: 10px;
+    font-size: 16px;
+}
+.stock-name-header{
+    font-size: 17px;
+    margin: 7px 0 1px 10px;
+}
+.stock-symbol{
+    margin: 0 0 0 11px;
+    font-size: 14px;
+    color: #8b8ba0;
+}
+.stock-card-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.stock-card-bottom-left{
+    text-align: start;
+    margin: 23px 0 0 12px;
+}
+.change-amount{
+    color: red;
+    font-size: 13px;
+}
+.stock-price{
+    margin: 0;
+    font-weight: 500;
+    font-size: 24px;
+}
+.stock-low{
+    margin: 48px 10px 0 0;
+    font-size: 16px;
+}
+.pos{
+    color: green;
+}
+@media screen and (max-width: 800px){
+    .stock-card {
+      width: 90%;
+      height: 68px;
+      margin: 0 0 8px 0;
+    }
+    .stock-card-top{
+        float: left;
+    }
+    .stock-card-bottom{
+        float: right;
+        margin: 5px 10px 0 0;
+    }
+    .stock-card-bottom-left{
+        margin: 5px 0 0 12px;
+        text-align: end;
+    }
+    .stock-price{
+        margin: -3px 0 0 30px;
+    }
+    .change-amount{
+        font-size: 16px;
+        font-weight: 550;
+    }
+    .stock-name-header{
+        font-size: 19px;
+        margin: 12px 0 1px 12px;
+    }
+    .stock-symbol{
+        font-size: 16px;
+        margin: 0 0 0 13px;
+    }
+    .stock-high {
+        display: none;
+    }
+    .stock-low {
+        display: none;
+    }
+}
